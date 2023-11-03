@@ -9,6 +9,8 @@ The second one is only trained on https://git.bksp.space/Tjiho/baudelaire-senten
 
 You can use them with Piper speech synthetiser https://github.com/rhasspy/piper
 
+The third one is trained 300 more epochs than the previous with the same dataset
+
 ```
 echo "Je suis un modèle d'intelligence artificielle qui parle français" | ~/bin/piper/piper -m <model> --output_file <your_file>
 ```
